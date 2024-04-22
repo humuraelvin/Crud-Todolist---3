@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.App {
+  box-shadow: rgba(15, 126, 238, 0.2) 0px 8px 24px;;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px; /* Set the maximum width */
+  margin: 0 auto;
+ 
+}
+
+
+.header {
+  background: rgb(44, 44, 44);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 10px;
+  position: static;
+}
+
+
+.logoside {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.logoside > svg {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  animation: spin 6s linear infinite;
+  color:greenyellow
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+

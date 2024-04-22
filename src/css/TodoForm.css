@@ -1,0 +1,48 @@
+
+
+.inputForm{
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+
+.inputForm > input , button {
+  outline:none;
+  border:none;
+  font-size: 1.4rem;
+  color:#000;
+}
+
+
+.inputForm > input{
+  height: 5vh;
+  width: 80%;
+  max-width: 900px; /* Set the maximum width */
+  margin: 0 auto; /* Center the container */
+  box-shadow: 1px 1px 6px -2px #000;
+  background: #F3F8FF;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  border-radius:50px ;
+}
+.inputForm > input::placeholder{
+font-size: 18px;
+color:rgba(229, 229, 229, 0.907)
+}
+
+
+.inputForm > button {
+  font-family: 'Roboto', sans-serif;
+  padding:5px 10px;
+  background: #FFB534;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 10px;
+ 
+}
+
